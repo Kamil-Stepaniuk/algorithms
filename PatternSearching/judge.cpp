@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <math.h>
 using namespace std::chrono; 
-#define Name "s7"
+#define Name "s2"
 #define PathIN "testCases/" Name ".in"
 
 namespace {

@@ -1,0 +1,22 @@
+{
+    "files.associations": {
+        "heapsort.h": "c",
+        "stdio.h": "c",
+        "string.h": "c",
+        "iostream": "cpp",
+        "array": "cpp",
+        "*.tcc": "cpp",
+        "functional": "cpp",
+        "tuple": "cpp",
+        "memory": "cpp",
+        "fstream": "cpp",
+        "istream": "cpp",
+        "limits": "cpp",
+        "ostream": "cpp",
+        "numeric": "cpp",
+        "sstream": "cpp",
+        "streambuf": "cpp",
+        "utility": "cpp",
+        "chrono": "cpp"
+    }
+}

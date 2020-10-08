@@ -65,7 +65,6 @@ public:
 };
 
 class KMPSolution : public ISolution {
-	int pi[100000];
 	void fillFixes(int pi[], char p[]) {
 		pi[0] = -1;
 		int t = -1;
@@ -79,6 +78,7 @@ class KMPSolution : public ISolution {
 public:
 	virtual int count(char text[], char phrase[]) {
 		int result = 0;
+		int pi[100000];
 		fillFixes(pi, phrase);
 		int i = 0
 		  , j = 0;
